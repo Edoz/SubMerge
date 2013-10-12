@@ -12,8 +12,12 @@ You can use this utility to offset a single subtitle file to a new start time an
 
 put your srt file(s) in the submerge/ directory
 
+open terminal/command prompt
+
 cd into submerge
+
 javac SubMerge.java
+
 java SubMerge
 
 follow instructions
