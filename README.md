@@ -10,14 +10,20 @@ Usage
 
 You can use this utility to offset a single subtitle file to a new start time and/or to merge multiple subtitle files into a single (correctly formatted) srt file. You'll need the proper start time for each of the files
 
-put your srt file(s) in the submerge/ directory
+how to use:
+
+clone repo
+
+put your srt file(s) in the SubMerge directory (same directory with folders submerge and submergetests)
 
 open terminal/command prompt
 
-cd into submerge
+cd into SubMerge/submerge
 
-javac SubMerge.java
+javac *.java
 
-java SubMerge
+cd ..
+
+java submerge.SubMerge
 
 follow instructions
